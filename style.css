@@ -4,11 +4,12 @@
     padding: 0px;
 }
 #wrapper{
-    width: 98%;
+    width: 100wh;
     height: 100vh;
     background-color: grey;
     padding: 20px;
-    margin-right: 25px;
+    overflow: hidden;
+
 }
 #header{
     min-height: 150px;
@@ -25,20 +26,20 @@
 }
 #main_content{
     padding: 1%;
-    min-height: 600px;
+    min-height: 680px;
     width: 76.9%;
     background-color: blue;
     display: inline-block;
 }
 .subcontents{
-    min-height: 350px;
+    min-height: 400px;
     width: 30%;
     background-color: yellow;
-    margin-right: 15px;
+    margin-right: 25px;
     display: inline-block;
 }
 #advertisement{
-    margin-top: 15px;
+    margin-top: 25px;
     min-height: 200px;
     width: 91%;
     background-color: green;
